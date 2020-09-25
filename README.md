@@ -15,7 +15,7 @@ The script can be easily changed to add more applications like Sonarr, SickBeard
 
 ## The scripts
 
-### appConfigh.sh
+### appConfig.sh
 Contains all the data/locations for the specific applications to backup and restore. It should only be necessary to customize this script.
 
 ### backup.sh
