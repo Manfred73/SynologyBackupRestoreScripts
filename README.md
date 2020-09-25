@@ -48,3 +48,6 @@ This script contains all the main logic used by the backup and restore scripts a
 * Just copy these 4 scripts to your Synology, e.g. to `/volume1/homes/<your_user_name>/scripts/backupAndRestore/`.
 * Recursively change the owner of the `backupAndRestore` directory and files: `chown -R <your_user_name>:users backupAndRestore`.
 * Recursively change permissions of the `backupAndRestore` directory and files to 0755: `chmod -R 755 backupAndRestore`.
+* In `appConfig.sh` change the following:
+  * <your_user_name> with the name of your own homes folder
+  * <YOUR_USER_NAME> with the name of your own homes folder (in capitals)
