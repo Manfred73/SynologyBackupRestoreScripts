@@ -65,7 +65,7 @@ RADARR_FILES_TO_BACKUP=("$RADARR_PATH/config.xml" "$RADARR_PATH/nzbdrone.db")
 
 # Variables for Sickchill backup & restore
 #
-SICKCHILL_PATH="$APPSTORE_LOCATION/sickchill/var"
+SICKCHILL_PATH="$APPSTORE_LOCATION/sickchill/var/data"
 SICKCHILL_BACKUP_PATH="$BACKUP_LOCATION/SickChill"
 SICKCHILL_PREFIX="SickChill"
 SICKCHILL_FILES_TO_BACKUP=("$SICKCHILL_PATH/config.ini" "$SICKCHILL_PATH/cache.db" "$SICKCHILL_PATH/sickchill.db" "$SICKCHILL_PATH/sickchill.db.v44" "$SICKCHILL_PATH/cache" "$SICKCHILL_PATH/failed.db")
