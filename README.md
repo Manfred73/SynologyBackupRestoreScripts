@@ -3,7 +3,7 @@
 This repository contains some generic scripts which can be used for backing up and restoring data for the following applications which you may have installed on your Synology:
 
 * Lidarr
-* Homes direcotry of a specific user
+* Homes directory of a specific user
 * Homes directory of the root user
 * NzbGet
 * Plex
